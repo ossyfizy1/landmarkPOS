@@ -9,7 +9,7 @@ var connectionPool = mysql.createPool({
     host     : process.env.MYSQL_DB_URI || 'localhost',
     user     : process.env.MYSQL_DB_USER || 'root',
     password : process.env.MYSQL_DB_PASSWORD || '',
-    database : process.env.MYSQL_DB_DATABASE || 'mobilepos',
+    database : process.env.MYSQL_DB_DATABASE || 'landmarkpos',
     port: process.env.DB_PORT || 3307,
   });
 

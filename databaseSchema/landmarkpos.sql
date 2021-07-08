@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1:3307
--- Generation Time: Jul 07, 2021 at 04:35 PM
+-- Generation Time: Jul 08, 2021 at 02:08 PM
 -- Server version: 10.4.13-MariaDB
 -- PHP Version: 7.3.21
 
@@ -18,7 +18,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Database: `mobilepos`
+-- Database: `landmarkpos`
 --
 
 -- --------------------------------------------------------

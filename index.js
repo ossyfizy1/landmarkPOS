@@ -40,7 +40,7 @@ app.use(session({secret: 'ssshhhhh', resave: true, saveUninitialized: true}));
 app.use(landingPage);
 
 // start server to listen on given port 
-var server = app.listen( process.env.PORT || 9500, function () {
+var server = app.listen( process.env.PORT || 6200, function () {
     var host = server.address().address
     var port = server.address().port;
     console.log("Mobile POS started at http://%s:%s", host, port);
